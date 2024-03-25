@@ -1,0 +1,18 @@
+.container{
+    text-align: center;    
+    background-color: beige;
+    border-radius: 90px;box-shadow: 0 0 10px;
+}
+
+/*Usando Flexbox: 
+    debes establecer la propiedad display: flex; en el elemento contenedor (en este caso, un div)
+    y la propiedad justify-content: center; en el elemento hijo (el botón).
+*/
+.boton-limpiar{    
+    display: flex;    
+    justify-content: center; 
+}
+
+/* Usando la propiedad text-align en el contenedor: div*/
+/* .boton-limpiar {text-align: center;} */
+
