@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Contador de caracteres</h2>
+        <textarea name="" id="entrada" cols="30" rows="10" placeholder="Escriba aquí...."
+            oninput="contadorCaracteres()"></textarea>            
+        <p id="contador">Caracteres : 0</p>
+    </div>
+    <div class="boton-limpiar">
+        <button onclick="limpiar()">Limpiar</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
